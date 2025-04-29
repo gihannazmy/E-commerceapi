@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environment
+venv/
+
+
+# Django stuff
+*.log
+db.sqlite3
+media/
+staticfiles/
+static/
+
+# VSCode and IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Byte-compiled files
+*.so
+
+# Mac OS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Migrations (optional - keep if you want versioned)
+**/migrations/*.pyc
+**/migrations/__pycache__/
+**/migrations/*.py
+
+# Coverage / testing
+htmlcov/
+coverage.xml
+*.cover
+*.pytest_cache/
+.tox/
+.nox/
+
+# MyPy / type checking
+.mypy_cache/
+.dmypy.json
+
+# Pytest cache
+.pytest_cache/
